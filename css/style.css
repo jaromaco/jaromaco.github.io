@@ -1,14 +1,36 @@
+.main {
+	background-color: beige;
+}
 nav {
-	background-color: rgb(27, 104, 33);
+	background-color: rgb(63, 134, 134);
 	overflow: hidden;
 	position: fixed;
 	top: 0;
 	width: 100%;
 }
 
-h1 {
+header {
+	margin: 0vw;
+	padding: 0.3vw;
+
+}
+.background {
+	background: linear-gradient(136deg, rgb(68, 132, 206), rgb(26, 215, 192), rgb(255, 155, 17), rgb(155, 89, 182), rgb(255, 127, 127), rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
+	animation: background 25s ease-in-out infinite;
+}
+.container {
+	margin: 56vw auto;
+	text-align: center;
 }
 
 .socialicon {
-	float: right;
+	display: inline-block;
+}
+
+h3 {
+	padding: 10px;
+	text-align: center;
+}
+.resume {
+	background-color: rgb(63, 134, 134);
 }
