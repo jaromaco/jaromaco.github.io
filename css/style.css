@@ -1,0 +1,14 @@
+nav {
+	background-color: rgb(27, 104, 33);
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+h1 {
+}
+
+.socialicon {
+	float: right;
+}
