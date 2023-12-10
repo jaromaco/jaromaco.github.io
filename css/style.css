@@ -9,9 +9,26 @@ nav {
 	width: 100%;
 }
 
+nav span {
+	color: white;
+	display: block;
+	float: left;
+	font-size: 20px;
+	padding: 14px 4vw;
+}
+
+span a {
+	color: white;
+	text-decoration: none;
+}
+
+span a:hover {
+	color: black;
+}
+
 header {
-	margin: 0vw;
-	padding: 0.3vw;
+	margin: 0 auto;
+	padding: 39vh 0;
 
 }
 .background {
@@ -19,9 +36,26 @@ header {
 	animation: background 25s ease-in-out infinite;
 }
 .container {
-	margin: 56vw auto;
+	margin: 0 auto;
 	text-align: center;
+	
 }
+
+h1 {
+	font-size: 2.5rem;
+	color: white;
+}
+
+h2 {
+	font-size: 1.5rem;
+	color: white;
+}
+
+header p {
+	font-size: 1.2rem;
+	color: white;
+}
+
 
 .socialicon {
 	display: inline-block;
@@ -31,6 +65,12 @@ h3 {
 	padding: 10px;
 	text-align: center;
 }
-.resume {
-	background-color: rgb(63, 134, 134);
+
+section {
+	margin: 0 auto;
+	padding: 39vh 0;
+}
+
+.about {
+	background-color: grey;
 }
